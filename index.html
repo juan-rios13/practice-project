@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href=".stlyes.css"> 
+    <link rel="stylesheet" href="./styles.css"> 
 </head>
 <body>
     <section>
         <nav>
-            <img src="./HTML Practise Assets/HTML Practise Assets/FES.svg" alt="">"
+            <img src="./HTML Practise Assets/HTML Practise Assets/FES.svg" class="logo" alt="">"
             <ul>
                 <li> <a href="#about">About</a></li>
                 <li><a href="#Discord">Discord</a></li>
-                <li><a href="#Contact">contact</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
         <header>
             <div>
             <h1>Best place to learn frontedn</h1>
-            <p>Go from absolute begginer to pro with this simplified process</p>
+            <p id="subheader">Go from absolute begginer to pro with this simplified process</p>
             <button>Start now</button>
             </div>
         </header>
@@ -28,16 +28,18 @@
         <main>
             <section id="about">
                 <h2>About</h2>
-                <div>
+                <div class="section__description">
+                <div id="about__text">
                 <p>Lorem ipsum dolor sit amet</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quasi, sapiente dignissimos porro harum id mollitia libero consequuntur dolorem provident ullam doloribus unde animi qui perspiciatis, inventore vero voluptate dolores.</p>
                 </div>
-                <figure>
+                <figure id="about__img">
                 <img src="./HTML Practise Assets/HTML Practise Assets/about.jpg" alt="">
                 </figure>
+                </div>
             </section>
             <section id="Discord">
-                <h3>Discord</h3>
+                <h2>Discord</h2>
                 <div>
                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, numquam iste similique aperiam impedit, accusamus illo et aliquam mollitia earum, non deserunt? Temporibus praesentium repellendus eius perferendis ipsam inventore velit!</p>
                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam et quos repellendus optio in voluptatem omnis autem illum debitis, velit accusamus nam illo similique voluptates explicabo a rem ut maxime?</p>
@@ -47,7 +49,7 @@
                </figure>
             </section>
             <section id="Contact">
-                <h4>Contact</h4>
+                <h2>Contact</h2>
                 <div>
                 <form action="">
                     <label>Email</label>
@@ -61,13 +63,13 @@
         </main>
         <footer>
             <img src="./HTML Practise Assets/HTML Practise Assets/FES.svg" alt="">
-            <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#Discord">Discord</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="#Courses">Courses</a></li>
+            <div id="footerLinks">
+            <a href="#about">About</a>
+            <a href="#Discord">Discord</a>
+            <a href="#Contact">Contact</a>
+            <a href="#Courses">Courses</a>
             <p>Copyright Juan Rios</p>
-            </ul>
+            </div>
         </footer>
 </body>
 </html>
