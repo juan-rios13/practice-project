@@ -94,3 +94,11 @@ margin-bottom: 24px;
 img{
     width: 100%;
 }
+
+/*SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
+
+@media (max-width: 728px)
+{
+    /* change code to work on phones*/
+
+    }
